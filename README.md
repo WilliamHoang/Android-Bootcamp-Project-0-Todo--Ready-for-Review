@@ -1,20 +1,20 @@
 # Android-Bootcamp-Project-0-Todo--Ready-for-Review
 
-# Pre-work - *Name of App Here*
+# Pre-work - *SimpleTodo*
 
-**Name of your app** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
+**SimpleTodo** is an android app that allows building a todo list and basic todo items management functionality including adding new items, editing and deleting an existing item.
 
-Submitted by: **Your Name Here**
+Submitted by: **William Hoang**
 
-Time spent: **X** hours spent in total
+Time spent: **6** hours spent in total
 
 ## User Stories
 
 The following **required** functionality is completed:
 
-* [ ] User can **successfully add and remove items** from the todo list
-* [ ] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list.
-* [ ] User can **persist todo items** and retrieve them properly on app restart
+* [x] User can **successfully add and remove items** from the todo list
+* [x] User can **tap a todo item in the list and bring up an edit screen for the todo item** and then have any changes to the text reflected in the todo list.
+* [x] User can **persist todo items** and retrieve them properly on app restart
 
 The following **optional** features are implemented:
 
@@ -23,27 +23,31 @@ The following **optional** features are implemented:
 * [ ] Add support for completion due dates for todo items (and display within listview item)
 * [ ] Use a [DialogFragment](http://guides.codepath.com/android/Using-DialogFragment) instead of new Activity for editing items
 * [ ] Add support for selecting the priority of each todo item (and display in listview item)
-* [ ] Tweak the style improving the UI / UX, play with colors, images or backgrounds
+* [x] Tweak the style improving the UI / UX, play with colors, images or backgrounds
 
 The following **additional** features are implemented:
 
-* [ ] List anything else that you can get done to improve the app functionality!
+* [x] List anything else that you can get done to improve the app functionality!
+Dialog popup window to show what exactly was edited.  Find if no popup, then users may forget what was edited when returning to main screen/activity.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://dl.dropboxusercontent.com/u/5618818/Development/GIF/ToDO-walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+*[1] Getting the original text to populate over to the edit Activity
+*[2] Updating the item and positioning of the ArrayList when a particular item has been updated
+*[3] Refactoring code and seeing what overlaps may be
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2016]] [William Hoang]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
