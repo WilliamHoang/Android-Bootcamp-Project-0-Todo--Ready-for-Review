@@ -41,9 +41,9 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-*[1] Getting the original text to populate over to the edit Activity
-*[2] Updating the item and positioning of the ArrayList when a particular item has been updated
-*[3] Refactoring code and seeing what overlaps may be
+* [1] Getting the original text to populate over to the edit Activity
+* [2] Updating the item and positioning of the ArrayList when a particular item has been updated
+* [3] Refactoring code and seeing what overlaps may be
 
 ## License
 
